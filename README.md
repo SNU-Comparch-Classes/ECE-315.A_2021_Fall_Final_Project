@@ -11,8 +11,9 @@ This repo is for announcements and documents
     - (11/28 01:33) updated: the data files are included for `layer_tb`
 
 
-
 ## Resources
-
 For the questions on VDMA, you can find most of the answers in the document below. Please try to find the information in the document before asking any questions.
 - VDMA 6.3: https://www.xilinx.com/support/documentation/ip_documentation/axi_vdma/v6_3/pg020_axi_vdma.pdf
+- XC7A100T
+  - Overview: https://www.xilinx.com/support/documentation/data_sheets/ds180_7Series_Overview.pdf
+  - CLB: https://www.xilinx.com/support/documentation/user_guides/ug474_7Series_CLB.pdf
