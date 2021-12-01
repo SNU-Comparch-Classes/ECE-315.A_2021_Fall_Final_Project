@@ -137,6 +137,14 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_weight_32bits_2s.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_bias_32bits_2s.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_input_32bits.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_weight_32bits.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_bias_32bits.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_input_32bits_2s.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_output_32bits.txt"/>
+      <File Path="$PPRDIR/../../../src/tb/conv/data/conv_output_32bits_2s.txt"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="tb"/>
