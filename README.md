@@ -10,7 +10,7 @@ This repo is for announcements and documents
   - For the new `layer_tb`, the data files (txt) are not included in the xpr file. So, you need to manually add them to the `Simulation Sources` via `Add or create simulation sources`. Once they are added, they will be placed under `Text` in `Simulation Sources`.
     - (11/28 01:33) updated: the data files are included for `layer_tb`
 - For `Nexys` branch, please update `src/common_ip/mig_dram/mig.prj` to `src/ddr2-mig/mig.prj`.
-
+  - In addition, remove all ports named `ddr2_reset_n`
 
 ## Resources
 For the questions on VDMA, you can find most of the answers in the document below. Please try to find the information in the document before asking any questions.
